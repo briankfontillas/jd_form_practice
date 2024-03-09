@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta  http-equiv="refresh" content="3">
     <title>Job Application</title>
     <link rel="stylesheet" href="./css/styles.css">
   </head>
@@ -12,7 +13,7 @@
     </header>
     <main>
       <h1>Software Engineer II</h1>
-      <p>at Coco Cola</p>
+      <p>at Coca Cola</p>
       <small>Remote</small>
       <section id="about">
         <h4>About our Company</h4>
@@ -21,7 +22,7 @@
       </section>
       <section id="qualifications">
         <h4>What we're looking for</h4>
-        <p>Curious about who thrives at Whatnot? We have found that low ego, a growth mindset, and leaning into action and high impact goes a long way here. As our next Engineering Intern you should have some industry software engineering experience, plus</p>
+        <p>Curious about who thrives at Coca-Cola? We have found that low ego, a growth mindset, and leaning into action and high impact goes a long way here. As our next Engineering Intern you should have some industry software engineering experience, plus</p>
         <ul>
           <li>2 years of experience in Software Engineering or similar role</li>
           <li>Object oriented programming experience</li>
@@ -39,7 +40,118 @@
         </ul>
       </section>
     </main>
-    <form>
+    <form action="#" method="post">
+      <h3>Apply for this Job</h3>
+      <p></p><sub>*</sub>Required</p>
+      <fieldset id="personal-info">
+        <label for="firstname">First Name<sub>*</sub></label>
+        <input type="text" name="firstname" id="firstname">
+        <label for="lastname">Last Name<sub>*</sub></label>
+        <input type="text" name="lastname" id="lastname">
+        <label for="email">Email<sub>*</sub></label>
+        <input type="text" name="email" id="email">
+        <label for="phone">phone<sub>*</sub></label>
+        <input type="text" name="phone" id="phone">
+        <label for="resume-cv">Resume/CV<sub>*</sub></label>
+        <div>
+          <button name="button" type="button">Attach</button>
+          <button name="button" type="button">Dropbox</button>
+          <button name="button" type="button">Google Drive</button>
+          <button name="button" type="button">or enter manually</button>
+        </div>
+        <small>(File types: pdf, doc, docx, txt, rtf)</small>
+      </fieldset>
+      <fieldset id="avail">
+        <label for="location">Are you currently located in an area that contains one of our corporate HQ's?<sub>*</sub></label>
+        <select name="location" id="location">
+          <option value="" disabled selected>Choose one</option>
+          <option value="">Yes</option>
+          <option value="">No</option>
+        </select>
+        <label for="actual-location">If you selected no, please enter the city/state you currently live in:</label>
+        <input type="text" name="actual-location" id="applicant-location">
+        <label for="linkedin">LinkedIn Profile:</label>
+        <input type="text" name="linkedin" id="ln-profile">
+        <label for="informed">How did you hear about this job?</label>
+        <input type="text" name="informed">
+        <label for="job">Current/Most recent company<sub>*</sub></label>
+        <input type="text" name="job">
+        <label for="yoe">Do you have at least 6+ years of experience as a full-time software engineer? (not including internships/co-ops)</label>
+        <select name="yoe" id="yoe">
+          <option value="" disabled selected>Choose one</option>
+          <option value="">Yes</option>
+          <option value="">No</option>
+        </select>
+      </fieldset>
+      <fieldset id="demographic">
+        <h4>Optional Demographic Questions</h4>
+        <p>Hi there! Here at Coca-Cola, we want to empower every employee to reach their full potential, regardless of race, gender, ethnicity, sexual orientation, or background. We also believe that building an organization with many dimensions of diversity is an important key to short and long-term success.</p>
+        <p>We collect anonymous demographic information to help us achieve our goal of building a diverse company. <strong>This information is anonymous and will not be tied back to your application.</strong> The data will only be used in aggregate for reporting or learning purposes.</p>
+        <div id="raeth">
+          With what Race/Ethinicity do you identify?<sub>*</sub>
+        <input type="checkbox" name="hispanic">
+        <label for="hispanic">Hispanic/Latine</label>
+        <input type="checkbox" name="black">
+        <label for="black">Black</label>
+        <input type="checkbox" name="asian">
+        <label for="asian">Asian</label>
+        <input type="checkbox" name="white">
+        <label for="white">White</label>
+        <input type="checkbox" name="pacific">
+        <label for="pacific">Pacific Islander</label>
+        <input type="checkbox" name="indigenous">
+        <label for="indigenous">Indigenous</label>
+        <input type="checkbox" name="mid-eastern">
+        <label for="mid-eastern">Middle Eastern</label>
+        <input type="checkbox" name="na">
+        <label for="na">I do not wish to answer</label>
+      </div>
+      <div id="lgbtq">
+        Do you belong to the LGBTQ+ community? (Selecto one)<sub>*</sub>
+        <input type="checkbox" name="lg-yes">
+        <label for="lg-yes">Yes</label>
+        <input type="checkbox" name="lg-no">
+        <label for="lg-no">No</label>
+        <input type="checkbox" name="lg-na">
+        <label for="lg-na">I do not wish to answer</label>
+      </div>
+      <div id="gender">
+        How you would describe your gender identity?<sub>*</sub>
+        <input type="checkbox" name="male">
+        <label for="male">Male</label>
+        <input type="checkbox" name="female">
+        <label for="female">Female</label>
+        <input type="checkbox" name="transgender">
+        <label for="transgender">Transgender</label>
+        <input type="checkbox" name="gq">
+        <label for="gq">Gender Queer</label>
+        <input type="checkbox" name="gnc">
+        <label for="gnc">Gender Non-Conforming</label>
+        <input type="checkbox" name="gnb">
+        <label for="gnb">Gender Non-Binary</label>
+        <input type="checkbox" name="na">
+        <label for="na">I do not wish to answer</label>
+      </div>
+      <div id="disability">
+        How would you describe your disability status?<sub>*</sub>
+        <input type="checkbox" name="disabled">
+        <label for="disabled">I have a disability</label>
+        <input type="checkbox" name="ndisabled">
+        <label for="ndisabled">I do not have a disability</label>
+        <input type="checkbox" name="na">
+        <label for="na">I do not wish to answer</label>
+      </div>
+      <div id="veteran">
+        How would you describe your veteran status?<sub>*</sub>
+        <input type="checkbox" name="vet">
+        <label for="vet">I am a veteran</label>
+        <input type="checkbox" name="nvet">
+        <label for="nvet">I am not a veteran</label>
+        <input type="checkbox" name="na">
+        <label for="na">I do not wish to answer</label>
+      </div>
+      </fieldset>
+      <input type="submit" id="submit-application" value="Submit Application">
     </form>
     <footer>
       <p>Powered by <a href="">Remote Jobs</a></p>
