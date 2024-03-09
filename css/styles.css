@@ -1,7 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 30px 40px;
+  width: 65%;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
 }
 
 img {
   width: 70px;
+  display: inline-block;
+}
+
+h1 {
+  font-size: 26.5px;
+}
+
+p {
+  margin: 3px 0;
+  line-height: 1.5;
+}
+
+header a {
+  display: inline-block;
+  width: 83%;
+  text-align: right;
+}
+
+p.company {
+  font-size: 17px;
+}
+
+small {
+  color: gray;
+}
+
+h4.company {
+  font-size: 23px;
+  margin: 6px 0;
+}
+
+section p {
+  margin: 10px 0;
+}
+
+ul {
+  margin: 5px 30px;
+}
+
+li {
+  margin-bottom: 3px;
+}
+
+fieldset {
+  border: none;
 }
