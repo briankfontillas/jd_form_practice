@@ -25,9 +25,19 @@ p {
 }
 
 header a {
-  display: inline-block;
-  width: 83%;
-  text-align: right;
+  position: absolute;
+  top: 28px;
+  right: 32%;
+  text-decoration: none;
+  outline: none;
+  padding: 15px;
+  background-color: #2975CA;
+  border-radius: 3px;
+  color: white;
+}
+
+header a:hover {
+  background-color: #0942B0;
 }
 
 p.company {
@@ -57,4 +67,9 @@ li {
 
 fieldset {
   border: none;
+}
+
+form {
+  background-color: rgba(242, 241, 241, 0.5);
+  border-radius: 3px;
 }
