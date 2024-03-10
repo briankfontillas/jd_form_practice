@@ -67,9 +67,62 @@ li {
 
 fieldset {
   border: none;
+  border-bottom: 1px solid rgba(182, 182, 182, 0.5);
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 form {
   background-color: rgba(242, 241, 241, 0.5);
   border-radius: 3px;
+  padding: 30px 30px;
+}
+
+form h3 {
+  width: 87%;
+  font-size: 19px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+form p.required {
+  display: inline;
+  text-align: right;
+  font-size: small;
+}
+
+sub {
+  color: red;
+  padding: 2px;
+  padding-bottom: 5px;
+}
+
+fieldset#demographic p {
+  margin: 10px 0;
+  font-size: 13px;
+}
+
+dd input[type="text"] {
+  padding: 2px 4px;
+  width: 90%;
+  line-height: 1.5;
+  border-radius: 3px;
+  border: 1px solid #cecece;
+}
+
+/* dd input[type="text"]:focus {
+  border-color: white;
+} */
+
+#personal-info dt label {
+  background-color: gray;
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 20px;
+}
+
+#personal-info dd input {
+  background-color: blue;
+  display: inline-block;
+  width: 40%
 }
