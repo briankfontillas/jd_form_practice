@@ -81,9 +81,9 @@
           </dt><!--
         --><dd>
             <button name="button" type="button"><a href="">Attach</a></button>
-            <button name="button" type="button">Dropbox</button>
-            <button name="button" type="button">Google Drive</button>
-            <button name="button" type="button">or enter manually</button>
+            <button name="button" type="button"><a href="https://dropbox.com" target="_blank">Dropbox</a></button>
+            <button name="button" type="button"><a href="https://drive.google.com">Google Drive</a></button>
+            <button name="button" type="button"><a href="">or enter manually</a></button>
           </dd>
         </dl>
         <small>(File types: pdf, doc, docx, txt, rtf)</small>
@@ -95,7 +95,7 @@
           </dt>
           <dd>
             <select name="location" id="location">
-              <option value="" disabled selected>Choose one</option>
+              <option value="" disabled selected>--</option>
               <option value="">Yes</option>
               <option value="">No</option>
             </select>
@@ -139,7 +139,7 @@
           </dt>
           <dd>
             <select name="yoe" id="yoe">
-              <option value="" disabled selected>Choose one</option>
+              <option value="" disabled selected>--</option>
               <option value="">Yes</option>
               <option value="">No</option>
             </select>
@@ -272,12 +272,12 @@
         </dd>
       </dl>
       </fieldset>
-      <button>
-        <input type="submit" id="submit-application" value="Submit Application">
-      </button>
+      <fieldset id="submit-application">
+        <input type="submit" value="Submit Application" id="submit-btn">
+      </fieldset>
     </form>
     <footer>
-      <p>Powered by <a href="">Remote Jobs</a></p>
+      <p><strong>Powered by </strong><a href="https://github.com/briankfontillas" target="_blank">Brian F</a></p>
     </footer>
   </body>
 </html>
